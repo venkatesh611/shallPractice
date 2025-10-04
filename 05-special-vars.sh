@@ -1,0 +1,13 @@
+#!/bin/bash
+echo "all variables passed to the script: $*"
+echo "number of variables passed to the script: $#"
+echo "script name: $0"
+echo "first variable: $1"
+echo "second variable: $2"
+echo "third variable: $3"
+echo "last variable: ${!#}"
+echo "process id of the script: $$"
+echo "exit status of the last command: $?"
+echo "all variables passed to the script as an array: $@"
+echo "home directory of the current user: $HOME"
+echo "pid of last background command: $!"
